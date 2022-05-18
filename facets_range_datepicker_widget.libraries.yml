@@ -1,7 +1,7 @@
 datepicker:
   version: VERSION
   js:
-    #js/datepicker.js: { attributes: { defer: true } }
+    js/datepicker.js: { attributes: { defer: true } }
     js/yearpicker.js: { }
   css:
     theme:

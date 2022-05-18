@@ -48,6 +48,7 @@ class DatepickerWidget extends WidgetPluginBase {
         '#type' => 'html_tag',
         '#tag' => 'input',
         '#attributes' => [
+          'placeholder' => 'From',
           'type' => 'number',
           'class' => ['facet-datepicker'],
           'id' => $facet->id() . '-min',

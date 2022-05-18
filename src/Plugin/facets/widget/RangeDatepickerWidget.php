@@ -38,6 +38,7 @@ class RangeDatepickerWidget extends DatepickerWidget {
         '#type' => 'html_tag',
         '#tag' => 'input',
         '#attributes' => [
+          'placeholder' => 'To',
           'type' => 'number',
           'class' => ['facet-datepicker'],
           'id' => $facet->id() . '-max',
