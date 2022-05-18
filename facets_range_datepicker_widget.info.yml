@@ -1,0 +1,12 @@
+name: 'Facets Range Datepicker Widget'
+type: module
+description: 'Provides a datepicker widget.'
+core_version_requirement: ^8.8 || ^9
+package: Search
+dependencies:
+  - facets:facets
+
+# Information added by Drupal.org packaging script on 2022-01-26
+version: '1.0.0-beta4'
+project: 'facets_range_datepicker_widget'
+datestamp: 1643187927

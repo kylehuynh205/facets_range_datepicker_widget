@@ -1,0 +1,11 @@
+datepicker:
+  version: VERSION
+  js:
+    #js/datepicker.js: { attributes: { defer: true } }
+    js/yearpicker.js: { }
+  css:
+    theme:
+      css/yearpicker.css: { }
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
